@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 5px 25px;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.header-left {
+    width: 20%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.menu{
+    color: rgb(0, 0, 0);
+    
+}
+.youtube-logo {
+    width: 50%;
+    height: 80%;
+}
+.header-center {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.header-center input {
+    width: 70%;
+    border:rgb(154, 153, 153) 2px solid;
+    border-radius: 17px 0 0 17px;
+    padding: 8px 16px;
+    border-right: none;
+}
+.header-center button{
+    width: 10%;
+    background-color: rgb(225, 223, 223);
+    border:rgb(154, 153, 153) 2px solid;
+    border-radius: 0 17px 17px 0;
+    padding: 2px 16px;
+    margin-right: 5px;
+   
+}
+
+.header-right {
+    width: 11%;
+    height: 95%;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-right img {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.main {
+    width: 100%;
+    /* height: 90vh; */
+    background-color: rgb(55, 0, 255);
+    display: flex;
+    flex-direction: row;
+}
+.main-left {
+    width: 18%;
+    height: 100%;
+   /* background-color: rgb(227, 95, 225); */
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.main-right {
+    width: 82%;
+    /* height: 100%; */
+    background-color: rgb(100, 100, 100);
+    
+}
+.categories {
+padding: 10px 20px;
+background-color: white;
+}
+.categories button {
+    padding: 5px 14px;
+    border-radius: 8px;
+    background-color:#F2F2F2;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+.categories button:hover {
+    background-color: rgb(173, 173, 173);
+}
+.categories button:focus {
+    background-color: black;
+    color: white;
+}
+.videos {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 25px;
+    flex-wrap: wrap;
+    
+
+}
+
+.box {
+    min-width: 24%;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    transition: all 0.7s;
+    cursor: pointer;
+   
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.box-top {
+width: 100%;
+height: 70%;
+/* background-color:aquamarine; */
+
+}
+.box-top img{
+    width: 100%;
+    height: 100%;
+   border-radius: 10px;
+}
+.box-bottom {
+width: 100%;
+height: 30%;
+display: flex;
+flex-direction: row;
+}
+.left {
+    width: 19%;
+    height: 100%;   
+}
+.left img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 10px 5px;
+}   
+.right {
+    width:81%;
+    height:100%;
+    padding: 3px 10px;
+
+}
+.right p:first-child
+{
+    font-weight: bolder;
+}
+.right p:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+    opacity: 0.8;
+
+}
+.effect:hover {
+    background-color: rgb(217, 212, 212);
+    padding: 5px 5px;
+    border-radius: 50%;
+}
